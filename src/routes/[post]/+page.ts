@@ -1,5 +1,15 @@
 import { error } from '@sveltejs/kit';
 
+export const prerender = true;
+
+export const entries = async () => {
+	const posts = import.meta.glob('/src/posts/*.svx');
+
+	return Object.keys(posts).map((path) => ({
+		page: path.split('/').pop()?.replace('.svx', '')
+	}));
+};
+
 export async function load({ params }) {
     const posts = import.meta.glob('/src/posts/*.svx');
 
