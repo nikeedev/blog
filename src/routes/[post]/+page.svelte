@@ -8,8 +8,8 @@
 </script>
 
 <svelte:head>
-    <meta property="og:title" content={data.metadata.title}>
-    <meta property="og:description" content={data.metadata.desc}>
+    <meta property="og:title" content="{data.metadata.title}">
+    <meta property="og:description" content="{data.metadata.description}">
 </svelte:head>
 
 <Layout metadata={data.metadata}>

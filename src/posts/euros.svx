@@ -10,6 +10,17 @@ Euro's have been in my opinion perhaps, recognised as one of the most awful bank
 
 Euro's otherwise have no good representation of who EU really choose to be, but their design, especially on the 200 Euro banknote, remain designed fairly good:
 
-![200 euro front](http://banknote.ws/COLLECTION/countries/EUR/EUR/EURW0031eo.jpg)
-![200 euro back](http://banknote.ws/COLLECTION/countries/EUR/EUR/EURW0031er.jpg)
+![200 euro front](./img/200eurofront.jpg)
+![200 euro back](./img/200euroback.jpg)
+
+I like the new designs 
+
+<img alt="new 20 euro banknote front side" src="https://www.ecb.europa.eu/euro/banknotes/future_banknotes/shared/img/banknote-design-proposal-d-200-front.jpg" width=300>
+<img alt="new 20 euro banknote back side" src="https://www.ecb.europa.eu/euro/banknotes/future_banknotes/shared/img/banknote-design-proposal-d-200-back.jpg" height=300>
+
+---
+!! NOT FINISHED BLOG POST !!
+---
+
+
 
