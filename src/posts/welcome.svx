@@ -1,9 +1,13 @@
 ---
 title: Welcome
-date: 25-07-2026
-description: Welcome message from the blog writer to you, readers :)
+date: 25 July 2026
+description: Welcome, all new readers!
 ---
 
-This is my blog. Here i will show whatever *creative* or *inspiring* stuff i can find, that i myself give my opinion at.
+### Hello everyone!
+
+This will be my blog, here i will post and show whatever *creative* or *inspiring* stuff I can find, where i also give my own opinion on.
+It will be mostly about design stuff, maybe some technological, but can be anything :)
+
 
 Have a good time and again, **welcome**!

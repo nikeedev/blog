@@ -8,17 +8,14 @@
 </script>
 
 <svelte:head>
-    <style>
-        #date {
-            font-size: 13px;
-        }
-    </style>
+    <meta property="og:title" content={data.metadata.title}>
+    <meta property="og:description" content={data.metadata.desc}>
 </svelte:head>
 
 <Layout metadata={data.metadata}>
-    <h1>{data.metadata.title}</h1>
-    <p id="date">{data.metadata.date}</p>
+    <p class="post-title"> &gt; {data.metadata.title}</p>
+    <p class="post-date">{data.metadata.date}</p>
 
     <Post />
-    <a href="{resolve("/")}"><i>back...</i></a> 
+    <a class="back" href="{resolve("/")}"><i>back...?</i></a> 
 </Layout>

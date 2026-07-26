@@ -5,6 +5,106 @@
     font-style: normal;
 }
 
-html {
+:root {
+    --nikee: rgb(60, 121, 235);
+}
+
+* {
     font-family: 'jbfont';
 }
+
+#title {
+    color: #ffffff;
+    background-color: #000000;
+
+    padding: 20px;
+
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#nikee {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+} 
+
+#nikee a:any-link {
+    color: var(--nikee);        
+}
+
+#posts {
+    display: flex;
+}
+
+/** For blog main page **/
+
+.post {
+    display: inline;
+    
+    border: 1px solid black;
+    background-color: #ffffff;
+    padding: 20px;
+    
+    margin: 20px 20px 20px 0px;
+    
+    width: 400px;
+    height: auto;
+
+    text-align: start;
+}
+
+.post:hover {
+    background-color: #ffffff;
+    box-shadow: 5px 5px;
+}
+
+.posts-title {
+    font-size: 20px;
+}
+
+.posts-date {
+    font-size: 12px;
+}
+
+.posts-desc {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+/** For each blog post **/
+
+.post-title {
+    font-weight: bold;
+    font-size: 25px;
+
+    padding: 20px;
+    padding-bottom: 0;
+
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.post-date {
+    padding-bottom: 35px;
+
+    font-size: 15px;
+    font-weight: bolder;
+
+    color: #ffffff;
+    background-color: #000000;
+
+    margin-top: -25px;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.back {
+    display: inline-block;
+    font-weight: bold;
+    color: var(--nikee);
+
+    padding-top: 35px;
+}
+
+
