@@ -1,3 +1,5 @@
+export const prerender = true;
+
 export async function load() {
 	const posts = import.meta.glob('/src/posts/*.svx');
 

@@ -18,7 +18,6 @@ export default defineConfig({
 				precompress: false,
 				strict: true
 			}),
-
 			paths: {
 				base: '/blog'
 			},

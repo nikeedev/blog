@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Layout from '$lib/layout.svelte';
+    import { resolve } from '$app/paths';
 
 	let { data } = $props();
 
@@ -19,5 +20,5 @@
     <p id="date">{data.metadata.date}</p>
 
     <Post />
-    <a href="../"><i>back...</i></a> 
+    <a href="{resolve("/")}"><i>back...</i></a> 
 </Layout>

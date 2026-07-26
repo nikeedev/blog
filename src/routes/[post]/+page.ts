@@ -6,7 +6,7 @@ export const entries = async () => {
 	const posts = import.meta.glob('/src/posts/*.svx');
 
 	return Object.keys(posts).map((path) => ({
-		page: path.split('/').pop()?.replace('.svx', '')
+		post: path.split('/').pop()?.replace('.svx', '')
 	}));
 };
 

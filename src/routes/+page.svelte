@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { resolve } from '$app/paths';
+    
 	let { data } = $props();
 </script>
 
@@ -11,7 +13,7 @@
 <ul>
 	{#each data.posts as post}
 		<li>
-			<a href="/{post.slug}">
+            <a href="{resolve("/")}{post.slug}">
 				{post.metadata.title}
 			</a>
 			<p>{post.metadata.description}</p>
